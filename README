@@ -16,3 +16,7 @@ Example:
 ---
 powershell
 .\TakeoutCleaner.ps1 -FolderPath "C:\GoogleTakeout\" -ExtractFolder "C:\GoogleTakeout\OutputPath"
+
+Dependencies
+---
+7zip
