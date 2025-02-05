@@ -1,0 +1,18 @@
+TakeoutCleaner
+===
+A simple tool to extract the files generated via Google Takeout and then remove the subsequent metadata .json files that it provides.
+
+Usage
+---
+
+powershell
+.\TakeoutCleaner.ps1 -FolderPath $folderPath -ExtractFolder $extractFolder
+
+$folderPath is the folder where the .zip files are located.
+
+$extractFolder is the path where you want the files extracted to
+
+Example:
+---
+powershell
+.\TakeoutCleaner.ps1 -FolderPath "C:\GoogleTakeout\" -ExtractFolder "C:\GoogleTakeout\OutputPath"
